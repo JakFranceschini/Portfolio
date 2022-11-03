@@ -14,10 +14,10 @@ let seta2 = document.getElementsByClassName('seta')[2];
 let seta3 = document.getElementsByClassName('seta')[3];
 let seta4 = document.getElementsByClassName('seta')[4];
 let seta5 = document.getElementsByClassName('seta')[5];
-let seta6 = document.getElementsByClassName('seta')[6];
-let seta7 = document.getElementsByClassName('seta')[7];
-let seta8 = document.getElementsByClassName('seta')[8];
-let seta9 = document.getElementsByClassName('seta')[9];
+let setaRedesSociais0 = document.getElementsByClassName('setaRedesSociais')[0];
+let setaRedesSociais1 = document.getElementsByClassName('setaRedesSociais')[1];
+let setaRedesSociais2 = document.getElementsByClassName('setaRedesSociais')[2];
+let setaRedesSociais3 = document.getElementsByClassName('setaRedesSociais')[3];
 
 botaoVeja0.addEventListener('mouseover', function() {
     seta0.style.marginLeft = '10px';
@@ -74,36 +74,36 @@ botaoLink3.addEventListener('mouseout', function() {
 });
 
 botaoContato0.addEventListener('mouseover', function() {
-    seta6.style.marginLeft = '10px';
-    seta6.style.transition = 'all 0.3s';
+    setaRedesSociais0.style.marginLeft = '10px';
+    setaRedesSociais0.style.transition = 'all 0.3s';
 });
 
 botaoContato0.addEventListener('mouseout', function() {
-    seta6.style.marginLeft = '5px';
+    setaRedesSociais0.style.marginLeft = '5px';
 });
 botaoContato1.addEventListener('mouseover', function() {
-    seta7.style.marginLeft = '10px';
-    seta7.style.transition = 'all 0.3s';
+    setaRedesSociais1.style.marginLeft = '10px';
+    setaRedesSociais1.style.transition = 'all 0.3s';
 });
 
 botaoContato1.addEventListener('mouseout', function() {
-    seta7.style.marginLeft = '5px';
+    setaRedesSociais1.style.marginLeft = '5px';
 });
 
 botaoContato2.addEventListener('mouseover', function() {
-    seta8.style.marginLeft = '10px';
-    seta8.style.transition = 'all 0.3s';
+    setaRedesSociais2.style.marginLeft = '10px';
+    setaRedesSociais2.style.transition = 'all 0.3s';
 });
 
 botaoContato2.addEventListener('mouseout', function() {
-    seta8.style.marginLeft = '5px';
+    setaRedesSociais2.style.marginLeft = '5px';
 });
 
 botaoContato3.addEventListener('mouseover', function() {
-    seta9.style.marginLeft = '10px';
-    seta9.style.transition = 'all 0.3s';
+    setaRedesSociais3.style.marginLeft = '10px';
+    setaRedesSociais3.style.transition = 'all 0.3s';
 });
 
 botaoContato3.addEventListener('mouseout', function() {
-    seta9.style.marginLeft = '5px';
+    setaRedesSociais3.style.marginLeft = '5px';
 });

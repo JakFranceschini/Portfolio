@@ -7,14 +7,14 @@ html, body {
     padding: 0;
     background: #ebebeb;
     font-family: 'DM Sans', sans-serif;
-    background: linear-gradient(to right bottom, #a6ecee9f, #bcdbda23, #bcdbda23, #bcdbda23, #ebebeb, #ebebeb) no-repeat;
+    background: linear-gradient(to right bottom, #c1a6ee9f, #d0bcdb23, #d0bcdb23, #d0bcdb23, #ebebeb, #ebebeb) no-repeat;
 }
 
-nav {
+aside {
     display: flex;
     flex-direction: column;
     float: right;
-    width: 100%;
+    width: 80%;
     background: #0c0c0c;
     padding: 60px;
 }
@@ -67,35 +67,36 @@ nav {
     margin-bottom: 30px;
 }
 
+.iconeRedesSociais {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
 .containerContato a {
-    width: 110px;
+    display: flex;
+    align-items: center;
+    width: 150px;
     color: #ebebeb;
     font-size: 12pt;
     font-weight: 400;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.containerContato a img {
+.setaRedesSociais {
     margin-left: 5px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin-left: 250px;
-    margin-right: 350px;
-}
 
-header {
+.containerInfoPessoais {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 250px;
 }
 
-header img {
+.containerInfoPessoais img {
     width: 80px;
     height: 80px;
     border-radius: 40px;
@@ -122,45 +123,53 @@ header img {
     color: #818181e8;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: 350px;
+}
+
 section {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.containerSectionExperiencia {
+.containerExperiencia {
     display: flex;
     flex-direction: column;
 }
 
-.containerSectionExperiencia h1 {
+.containerExperiencia h1 {
     color: #818181e8;
     font-size: 14pt;
     font-weight: 400;
 }
 
-.containerSectionExperiencia h2 {
+.containerExperiencia h2 {
     color: #1a1a1aea;
     font-size: 16pt;
     font-weight: 700;
     margin-bottom: 0;
 }
 
-.containerSectionExperiencia h3 {
+.containerExperiencia h3 {
     color: #818181e8;
     font-size: 12pt;
     font-weight: 400;
     margin: 0;
 }
 
-.containerSectionExperiencia p {
+.containerExperiencia p {
     color: #1a1a1aea;
     font-size: 14pt;
     font-weight: 400;
     margin-top: 30px;
 }
 
-.containerSectionExperiencia a {
+.containerExperiencia a {
     width: 70px;
     color: #1a1a1aea;
     font-size: 12pt;
@@ -169,37 +178,37 @@ section {
     margin-bottom: 50px;
 }
 
-.containerSectionExperiencia a img{
+.containerExperiencia a img{
     margin-left: 5px;
 }
 
-.containerSectionEducacao {
+.containerEducacao {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
 }
 
-.containerSectionEducacao h1 {
+.containerEducacao h1 {
     color: #818181e8;
     font-size: 14pt;
     font-weight: 400;
 }
 
-.containerSectionEducacao h2 {
+.containerEducacao h2 {
     color: #1a1a1aea;
     font-size: 16pt;
     font-weight: 700;
     margin-bottom: 0;
 }
 
-.containerSectionEducacao h3 {
+.containerEducacao h3 {
     color: #818181e8;
     font-size: 12pt;
     font-weight: 400;
     margin: 0;
 }
 
-.containerSectionEducacao p {
+.containerEducacao p {
     color: #1a1a1aea;
     font-size: 14pt;
     font-weight: 400;
